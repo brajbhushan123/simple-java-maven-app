@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <name>releases</name>
+        <url>http://myNexus/more/stuff</url>
+    </repository>
+</distributionManagement>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
