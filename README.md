@@ -5,15 +5,11 @@ This repository is for the
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
 
 The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
+"Hello world!!!! My Name is Braj Bhushan Kumar" and is accompanied by a couple of unit tests to check that the
 main application works as expected. The results of these tests are saved to a
 JUnit XML report.
 
 The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
 you'll be creating yourself during the tutorial and the `scripts` subdirectory
 contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
-
-testing
-braj testing 123 123 123
-sending to master 
+the "Deliver" stage of your Pipeline. 
